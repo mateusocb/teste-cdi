@@ -8,6 +8,6 @@ public class MeuCDIProvider implements CDIProvider {
 
     @Override
     public CDI<Object> getCDI() {
-        return (CDI<Object>) new Object();
+        return new MeuCDI();
     }
 }
